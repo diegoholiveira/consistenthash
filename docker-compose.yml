@@ -1,0 +1,18 @@
+---
+services:
+  nodeA:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+  nodeB:
+    image: redis:alpine
+    ports:
+      - "6380:6379"
+  nodeC:
+    image: redis:alpine
+    ports:
+      - "6381:6379"
+  nodeD:
+    image: redis:alpine
+    ports:
+      - "6382:6379"
